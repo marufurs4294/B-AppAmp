@@ -1,0 +1,175 @@
+.d-text{
+    color: black!important;
+}
+.buy-button{
+    margin-left: 35rem;
+}
+.n-item{
+    font-size: 20px;
+    
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.buy-button{
+    border: 2px solid #0D6EFD!important;
+}
+.buy-button:hover{
+    box-shadow: 5px 3px 25px 6px rgba(36, 106, 219, 0.5);
+}
+
+/* Banner */
+.banner-container{
+    background: url(mbr-10.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+}
+.banner-container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+.banner-row{
+    width: 60%;
+}
+.health-container{
+    background-color: #F7F9FF;
+}
+.health-container h1{
+    font-weight: 500;
+}
+.application-container h1{
+    font-weight: 500;
+}
+/* Feature Section */
+.feature-item{
+    height: 300px;
+    
+    box-shadow: 5px 5px 10px 5px rgba(221, 215, 215, 0.6);
+    transition: .3s;
+}
+.feature-item:hover{
+    box-shadow: 5px 5px 15px 10px rgba(0,0,0,.2);
+}
+.img-section{
+    width: 40%;
+    overflow: hidden;
+}
+.text-section{
+    width: 60%;
+    padding: ;
+}
+.img-section img{
+    height: 100%;
+    width: auto!important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+
+}
+
+/* application */
+.portfolio-item {
+    display: block;
+    position: relative;
+}
+.portfolio-item a img{
+    width: 320px;
+    height: 450px;
+    padding-left:20px;
+    object-fit: contain;
+    
+}
+.portfolio-item  a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover  a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* Pricing Table Section */
+.pricing-box{
+    margin-left: 161px;
+}
+.pricing-table{
+    width: 400px;
+    margin-top: 20px;
+}
+.pricing-item{
+    box-shadow:3px 3px 13px 0px rgba(0,0,0,.2);
+    
+    border-radius: 6px;
+    transition: .3s;
+    
+}
+.pricing-item:hover{
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,.6);
+}
+.portfolio-item ul{
+
+}
+.pricing-item ul li{
+  list-style: none;  
+  font-size: 25px;
+  color: #777;
+}
+.pricing-item ul li span{
+color: royalblue;
+font-weight: bolder;
+font-size: 25px;
+padding-right: 12px;
+width: 40px;
+display: inline-block;
+}
+.table-button a{
+    padding: 10px 7rem;
+    transition: .3s;
+}
+
+/* Testimonial Section */
+
+.author-information{
+    width: 200px;
+    margin: auto;
+}
+.author-information img{
+width: 80px;
+}
+ 
+/* about-section */
+
+.about-section  img{
+width: 120px;
+margin-top: -90px!important;
+}
+.about-section a{
+    transition: .3s;
+    border-radius: 7px;
+}
+.about-section a:hover{
+    color: whitesmoke;
+    background-color: rgb(61, 58, 58);
+}
+
+/* footer */
+
+.store-button:hover{
+    box-shadow: 5px -3px 10px 5px rgba(11, 73, 241, 0.2);
+}
